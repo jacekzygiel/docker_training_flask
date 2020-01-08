@@ -8,7 +8,7 @@ def hello_jlabs():
 
 
 @app.route('/cheers')
-def hello_jlabs():
+def cheers_jlabs():
     return '<h1 style="color:red;">Cheers, Jlabs!!</h1>'
 
 
