@@ -1,9 +1,11 @@
 from flask import Flask
+from time import sleep
 app = Flask(__name__)
 
 
 @app.route('/hello')
 def hello_hsbc():
+    sleep(3)
     return '<h1 style="color:red;">Hello, HSBC!</h1>'
 
 
