@@ -3,13 +3,13 @@ app = Flask(__name__)
 
 
 @app.route('/hello')
-def hello_jlabs():
-    return '<h1 style="color:red;">Hello, Jlabs!</h1>'
+def hello_hsbc():
+    return '<h1 style="color:red;">Hello, HSBC!</h1>'
 
 
 @app.route('/cheers')
-def cheers_jlabs():
-    return '<h1 style="color:red;">Cheers, Jlabs!!</h1>'
+def cheers_hsbc():
+    return '<h1 style="color:red;">Cheers, HSBC!!</h1>'
 
 
 if __name__ == '__main__':
